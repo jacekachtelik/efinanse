@@ -1,0 +1,14 @@
+{
+	"1": {
+		"user_name":	"jkowalski",
+		"first_name":	"Jan",
+		"lastname":		"Kowalski",
+		"password":		"aqq123"
+	},
+	"2": {
+		"user_name":	"anowak",
+		"first_name":	"Andrzej",
+		"lastname":		"Nowak",
+		"password":		"123qwe"
+	}
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+	margin:0px; 
+	padding:0px; 
+	left:0px; 
+	right:0px;
+	background-color: #333;
+}
+/* header, section, footer, aside, nav, main, article, figure {
+    display: block;
+} */
+
+div#strona_top_banner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 500px;
+    height: 35px;
+    background-color: #5F5F5F;
+    font-size: 20px;
+    color: #F1F1F1;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+}
+
+div#strona_top_banner_lewy {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 35px;
+    float: left;
+    background-color: inherit;
+    padding: 5px 10px;
+    padding-left: 75px;
+    font-weight: bolder;
+    
+}
+div#strona_top_banner_prawy {
+    top: 0px;
+    /* left: 500px; */
+    width: 100%;
+    min-width: 300px;
+    height: 35px;
+    float: right;
+    background-color: inherit;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+div#strona_zawartosc {
+    position: fixed;
+    top: 36px;
+    left: 0px;
+    background-color: #f3f3f3;
+    height:100%;
+    min-height: 500px;
+    width: 100%;
+}
+
+div#strona_footer_banner {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #5F5F5F;
+    height: 20px;
+    width: 100%;
+    text-align: left;
+    padding: 2px 10px;
+    color: #f1f1f1;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+}
+
+

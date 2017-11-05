@@ -1,0 +1,60 @@
+div#logowanie_panel_logowania {
+	position: fixed;
+	width: 600px;
+    height: 400px;
+    top: 50%;
+    margin-top: -200px;
+	left: 50%;
+	margin-left: -300px;
+    background-color: rgba(252, 252, 252, 0.75);
+    border: 1px solid #323232;
+    border-radius: 15px;
+    /*-webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;*/
+ }
+
+p#logowanie_formatka_logowania_tytul {
+	display: block;
+	width: 540px;
+	height: 100px;
+	line-height: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    padding-left: 30px;
+}
+
+div#formatka_logowania {
+	position: absolute;
+	width: 540px;
+	top: 100px;
+	margin-left: 15px;
+	padding-left: 30px;
+}
+ label {
+    display: block;
+    font-size: 22px;
+    color: #555;
+    line-height: 30px;
+    text-align: left;
+}
+
+button.zaloguj {
+    width: 500px;
+    padding: 10px 15px;
+    border: 1px solid #015F0E;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #f1f1f1;
+    text-shadow: 0 0 1px black;
+    background: #15BD02;
+    margin-top: 20px;
+    /* margin-left: 290px; */
+} 
+
+button.zaloguj:focus,button.zaloguj:hover {
+	background-color: #006400;
+} 
