@@ -1,0 +1,16 @@
+{
+    "operations": [
+        "id": 1,
+        "date": "2017-11-14",
+        "category": "Bilans Otwarcia",
+        "value": 0.00,
+        "files":[
+            {
+                "id":   1,
+                "name": "Nazwa pliku.pdf",
+                "type": "pdf",
+                "path": "2017/11/14/1.pdf"
+            }
+        ]
+    ]
+}
