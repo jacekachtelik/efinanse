@@ -54,6 +54,10 @@ div#strona_top_banner_prawy {
 }
 
 div#strona_zawartosc {
+    padding: 5px 10px;
+}
+
+div#strona_zawartosc {
     position: fixed;
     top: 36px;
     left: 0px;

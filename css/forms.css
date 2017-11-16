@@ -2,12 +2,15 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="url"],
+input[type="date"],
+input[type="file"],
+input[type="submit"],
 select,
-textarea
+textarea,
  {
     width: 500px;
-    font-size: 24px;
-    padding: 12px 20px;
+    font-size: 16px;
+    padding: 8px 16px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -21,8 +24,42 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus,
+input[type="submit"]:focus,
 select:focus,
 textarea:focus {
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+div#formatka logowania input[type="text"],
+div#formatka logowania input[type="password"],
+div#formatka logowania input[type="email"],
+div#formatka logowania input[type="url"],
+div#formatka logowania input[type="date"],
+div#formatka logowania select,
+div#formatka logowania textarea
+ {
+    width: 500px;
+    font-size: 24px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: #333;
+}
+div#formatka logowania input[type="text"]:focus,
+div#formatka logowania input[type="password"]:focus,
+div#formatka logowania input[type="email"]:focus,
+div#formatka logowania input[type="url"]:focus,
+div#formatka logowania input[type="date"],
+div#formatka logowania select:focus,
+div#formatka logowania textarea:focus {
     border: 2px solid #333;
     border-radius: 4px;
 }

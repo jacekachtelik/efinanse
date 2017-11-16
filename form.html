@@ -21,7 +21,23 @@
     <!-- Zawartość strony -->
     <div id="strona_zawartosc">
         <h1>Formularz</h1>
-
+        <p>Proszę wprowadzić transakcję w poniższy formularz. Wydatki należy wprowadzić ze znakiem <span style="font-weight: bold">minus</span></p>
+        <form action="/dashboard.html">
+            <p>Data transakcji: <input type="date" name="date" autofocus /></p>
+            <p>Opis: <textarea rows="4" cols="50" name="description">Proszę wpisać opis transakcji</textarea></p>
+            <p>Kategoria: 
+                 <select name="category">
+                    <option value="czynsz">Czynsz</option>
+                    <option value="ee">Energia Elektryczna</option>
+                    <option value="gaz">Gaz</option>
+                    <option value="inne">Pozostałe</option>
+                  <option value="">Audi</option>
+                </select> 
+            </p>
+            <p>Kwota: <input type="text" name="value" pattern="^\d+*(\.,\d{2}$)?" /></p>
+            <p>Załącznik: <input type="file" name="upload" multiple="multiple" /></p>
+            <input type="submit" value="Zapisz" />
+        </form>
 
     </div>
     <!-- Główny nagłówek strony -->

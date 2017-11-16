@@ -3,6 +3,7 @@
         "id": 1,
         "date": "2017-11-14",
         "category": "Bilans Otwarcia",
+        "description":"Transakcja otwierająca - bilans otwarcia",
         "value": 0.00,
         "files":[
             {
