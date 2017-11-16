@@ -17,13 +17,12 @@ exports.welcome = function(request,response) {
 exports.dashboard = function(request,response) {
     console.log('Rozpoczynam obsługę żądania dashboard');
     var form = new formidable.IncomingForm();
-    form.uploadDir = "/files";
     fs.readFile('dashboard.html', function(err, html) {
         if (err) throw err.red;
         var guid = tools.guid();
         console.log('GUID',guid);
         console.log('Formularz: ',form);
-        console.log('żądanie 2',request)
+        console.log('żądanie 2',request);
         form.parse(request,function(err, fields, files) {
             console.log('Pola: ',fields);
             console.log('Pliki: ',files);

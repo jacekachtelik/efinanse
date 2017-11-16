@@ -22,7 +22,7 @@
     <div id="strona_zawartosc">
         <h1>Formularz</h1>
         <p>Proszę wprowadzić transakcję w poniższy formularz. Wydatki należy wprowadzić ze znakiem <span style="font-weight: bold">minus</span></p>
-        <form action="/dashboard.html">
+        <form action="/dashboard.html" enctype="multipart/form-data" method="post">
             <p>Data transakcji: <input type="date" name="date" autofocus /></p>
             <p>Opis: <textarea rows="4" cols="50" name="description">Proszę wpisać opis transakcji</textarea></p>
             <p>Kategoria: 
