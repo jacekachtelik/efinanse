@@ -16,7 +16,6 @@ function start() {
     var url = request.url;
     // Wyszukanie, czy istnieje znak pytajnika w request
     var questionMark = url.search(/\?/);
-    console.log('Pytajnik: ',questionMark);
     if (questionMark != undefined && questionMark > 0) {
         var position = request.url.indexOf("?");
         console.log("Pozycja pytajnika: ",position);
@@ -24,6 +23,10 @@ function start() {
             url = url.substr(0, position);
         }
     }
+    // Sprawdzanie, czy problem dotyczy pliku:
+    var filesPosition = url.indexOf('/',1);
+    files = url.substr(0,filesPosition);
+    console.log('files: ',files);
     url = url.replace(".html","");
     console.log("URL: " + url);
     switch(url) {
@@ -33,6 +36,7 @@ function start() {
             handlers.welcome(request,response);
             break;
         case '/dashboard':
+        case '/files':
             handlers.dashboard(request,response);
             break;
         case '/form':
